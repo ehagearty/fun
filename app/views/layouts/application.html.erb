@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Fun</title>
-	<%= javascript_include_tag "bootstrap" %>
-	<%= stylesheet_link_tag "bootstrap" %>
-	<%= csrf_meta_tags %>
+  <title>Fun</title>
+  <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'bootstrap', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
 </head>
 <body>
 
-	<%= yield %>
+<%= yield %>
 
 </body>
 </html>
