@@ -15,6 +15,17 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
  * ======================================================================== */
 
 
+function randomWord(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function press() {
+  var words = ['Meow', 'Hi friend!', 'chips chips chips', 'clark mer', 'what does liz want to eat?', 'wheres my phone?'];
+  word = randomWord(words)
+  console.log(word)
+  document.getElementById('lizism').innerHTML = word;
+}
+
 +function ($) {
   'use strict';
 
