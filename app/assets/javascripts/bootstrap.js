@@ -20,7 +20,8 @@ function randomWord(arr) {
 }
 
 function press() {
-  var words = ['Meow', 'Hi friend!', 'chips chips chips', 'clark mer', 'what does liz want to eat?', 'wheres my phone?'];
+  var words = ['Meow', 'Hi friend!', 'chips chips chips', 'clark mer',
+  'what does liz want to eat?', 'wheres my phone?', "Meep", "l o l", "cuddle cuddles"];
   word = randomWord(words)
   console.log(word)
   document.getElementById('lizism').innerHTML = word;
