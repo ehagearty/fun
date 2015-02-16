@@ -32,9 +32,9 @@ function press() {
 function pressfood() {
   var words = ['Chipotle', 'Pieology', 'Soup Co', 'DG',
   'IFE', 'Asian Ghetto'];
-  word = randomWord(words)
-  if word == document.getElementById('lizfood').innerHTML:
-    word = randomWord(words);
+  word = randomWord(words);
+  // if word == document.getElementById('lizfood').innerHTML:
+  //   word = randomWord(words);
   document.getElementById('lizfood').innerHTML = word;
 }
 
